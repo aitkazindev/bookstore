@@ -14,7 +14,7 @@ export default function App() {
       <Route path="/books/create" element={<CreateBook />}></Route>
       <Route path="/books/details/:id" element={<ShowBook />}></Route>
       <Route path="/books/delete/:id" element={<DeleteBook />}></Route>
-      <Route path="/book/update/:id" element={<UpdateBook />}></Route>
+      <Route path="/books/update/:id" element={<UpdateBook />}></Route>
     </Routes>
   );
 }

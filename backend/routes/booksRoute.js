@@ -2,11 +2,6 @@ import express from "express";
 import { Book } from "../models/bookModel.js";
 const router = express.Router();
 
-router.get("/", (request, response) => {
-  console.log(request);
-  return response.status(234).send("Welcome to my page");
-});
-
 router.post("/", async (request, response) => {
   try {
     if (
